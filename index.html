@@ -6,28 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Pretty Shoppe</title>
     <link href="styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
     </head>
 <body>
    <!--navbar-->
    <nav class="navbar">
     <div class="navbar-center">
         <span class="nav-icon">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fas fa-bars"></i>
         </span>
         <h2>The Pretty Shoppe</h2>
         <div class="cart-btn">
             <span class="nav-icon">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fas fa-cart-plus"></i>
             </span>
             <div class="cart-items">0</div>
         </div>
     </div>
    </nav>
+   <!--end of navbar-->
+
+   <header class="hero">
+   
+    <div class="banner">
+        <h1 class="banner-title">Dress Collection</h1>
+        <button class="banner-btn">Shop now</button>
+    </div>
+   </header>
+   <!----end of hero-->
+
+   <section class="products">
+    <div class="section-title">
+        <h2>Our Products</h2>
+    </div>
+    <div class="products-center">
+        <article class="product">
+            <div class="image-container">
+                <img src="Images\P1.jpg" alt="product" class="product-img">
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to bag
+                </button>
+            </div>
+            <h3>Floral Dress</h3>
+            <h4>Rs 1000</h4>
+        </article>
+        <article class="product">
+            <div class="image-container">
+                <img src="Images\P4.jpg" alt="product" class="product-img">
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to bag
+                </button>
+            </div>
+            <h3>Wedding Gown</h3>
+            <h4>Rs.10000</h4>
+        </article>
+        <article class="product">
+            <div class="image-container">
+                <img src="Images\P6.jpg" alt="product" class="product-img">
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to bag
+                </button>
+            </div>
+            <h3>Yellow Dress</h3>
+            <h4>Rs.800</h4>
+        </article>
+        <article class="product">
+            <div class="image-container">
+                <img src="Images\P5.jpg" alt="product" class="product-img">
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to bag
+                </button>
+            </div>
+            <h3>Black Gown</h3>
+            <h4>Rs.900</h4>
+        </article>
+    </div>
+   </section>
 </body>
 <script src="app.js"></script>
 </html>
