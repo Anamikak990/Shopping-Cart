@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "sys": {"id": "1"},
+      "fields": {
+        "title": "Floral Dress",
+        "price": 1000.0,
+        "image": {"fields": {"file": {"url": "https://github.com/Anamikak990/Shopping-Cart/blob/main/Images/P1.jpg" } } }
+
+      }
+     
+    },
+    {
+      "sys": {"id": "2"},
+      "fields": {
+        "title": "Wedding Gown",
+        "price": 10000.0,
+        "image": {"fields": {"file": {"url": "https://github.com/Anamikak990/Shopping-Cart/blob/main/Images/P4.jpg" } } }
+
+      }
+      
+    },
+    {
+     "sys": {"id": "3"},
+      "fields": {
+        "title": "Yellow Dress",
+        "price": 800.0,
+        "image": {"fields": {"file": {"url": "https://github.com/Anamikak990/Shopping-Cart/blob/main/Images/P6.jpg" } } }
+
+      }
+      
+    },
+    {
+      "sys": {"id": "4"},
+      "fields": {
+        "title": "Black Gown",
+        "price": 900.0,
+        "image": {"fields": {"file": {"url": "https://github.com/Anamikak990/Shopping-Cart/blob/main/Images/P5.jpg" } } }
+
+      }  
+    },
+
+    {
+        "sys": {"id": "5"},
+      "fields": {
+        "title": "White Short",
+        "price": 1900.0,
+        "image": {"fields": {"file": {"url": "https://github.com/Anamikak990/Shopping-Cart/blob/main/Images/P55.jpg" } } }
+
+      }
+    },
+
+    {
+        "sys": {"id": "6"},
+      "fields": {
+        "title": "Black Dress",
+        "price": 1100.0,
+        "image": {"fields": {"file": {"url": "https://github.com/Anamikak990/Shopping-Cart/blob/main/Images/P56.jpg" } } }
+
+      }
+    }
+]}
