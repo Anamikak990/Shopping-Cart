@@ -200,11 +200,11 @@ body{
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 40%;
   height: 100%;
   overflow: scroll;
   background: var(--main-white);
-  z-index: 3;
+  z-index: 2;
   background: rgb(231,226,221);
   padding: 1.5rem;
   transition: var(--main-transition);
@@ -213,6 +213,10 @@ body{
 
 .showCart{
   transform: translateX(0);
+}
+
+.transparentBcg{
+  visibility: visible;
 }
 
 .close-cart {
